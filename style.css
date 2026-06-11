@@ -12,11 +12,18 @@ body {
     scrollbar-color: #333 #000000;
 }
 h1 {
-    color: #bb4924;
+    color: #fcfcfc;
     font-size: 18px;
-  
-
+   padding: 30px 85px;
+    transition: background-color 0.3s ease;
 }
+  h1:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+   
+}
+
 .nav ul {
     list-style: none;
     display: flex;
@@ -33,4 +40,9 @@ h1 {
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
+}
+.nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
 }
