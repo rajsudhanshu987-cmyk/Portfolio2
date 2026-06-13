@@ -76,5 +76,34 @@ body{
     letter-spacing:4px;
 }
 
+h1{
+    font-size:90px;
+    line-height:1.1;
+    margin-top:20px;
+}
 
+h1 span{
+    color:#ff8b61;
+}
 
+.desc{
+    margin-top:30px;
+    color:#9c9c9c;
+    font-size:20px;
+}
+
+.card{
+    width:350px;
+    background:#111;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.card-info{
+    padding:20px;
+}
