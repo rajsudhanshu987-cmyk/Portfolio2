@@ -17,12 +17,13 @@ body {
     font-weight: bold;
     margin-right: 20px;
     padding: 10px 15px;
-  
+  transition: background-color 0.3s ease;
+
 }
 .nav-title:hover {
   
-   
-    color: #ae1a1a;
+   background-color: #da7749;
+    color: #ae3a1a;
     border-radius: 5px;
    
 }
@@ -45,8 +46,15 @@ body {
     transition: background-color 0.3s ease;
 }
 .nav ul li a:hover {
-    background-color: #333;
+    background-color: #da7749;
     color: #fff;
     border-radius: 5px;
 }
 
+#hello {
+  
+ 
+    display: flex;
+    justify-content: flex-end;
+  margin-left: 30px;
+}
