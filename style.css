@@ -11,15 +11,18 @@ body {
     scrollbar-width: thin;
     scrollbar-color: #333 #000000;
 }
-h1 {
-    color: #fcfcfc;
-    font-size: 18px;
-   padding: 30px 85px;
-    transition: background-color 0.3s ease;
-}
-  h1:hover {
-    background-color: #333;
+.nav-title {
     color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px 15px;
+  
+}
+.nav-title:hover {
+  
+   
+    color: #ae1a1a;
     border-radius: 5px;
    
 }
@@ -46,3 +49,4 @@ h1 {
     color: #fff;
     border-radius: 5px;
 }
+
