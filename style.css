@@ -135,3 +135,13 @@ h1 span{
     font-weight:bold;
     margin-right:10px;
 }
+.about .head{
+    font-size:40px;
+    margin-top:20px;
+}
+.about .desc{
+    margin-top:30px;
+    color:#9c9c9c;
+    font-size:20px;
+    line-height:1;
+}
