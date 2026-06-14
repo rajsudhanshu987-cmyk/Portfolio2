@@ -75,6 +75,11 @@ body{
     color:#777;
     letter-spacing:4px;
 }
+.small span{
+    color:#ff8b61;
+    font-weight:bold;
+    
+}
 
 h1{
     font-size:90px;
@@ -93,17 +98,40 @@ h1 span{
 }
 
 .card{
-    width:350px;
+    width:250px;
     background:#111;
     border-radius:20px;
     overflow:hidden;
 }
 
 .card img{
-    width:100%;
+    width:80%;
     display:block;
 }
 
 .card-info{
     padding:20px;
+}
+.card-info h3{
+    font-size:22px;
+}
+.card-info p{
+    color:#777;
+    margin-top:5px;
+}
+.about{
+    width:90%;
+    margin:auto;
+    margin-top:100px;
+}
+.about h6{
+    color:#777;
+    letter-spacing:4px;
+    font-size:18px;
+}
+.about h6 span{
+    color:#ff8b61;
+    font-size:18px;
+    font-weight:bold;
+    margin-right:10px;
 }
