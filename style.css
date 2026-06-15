@@ -172,7 +172,7 @@ h1 span{
     position:relative;
     padding-left:30px;
     border-left:1px solid #333;
-     min-height:700px;
+    margin-top:250px;
 }
 
 .education-item{
