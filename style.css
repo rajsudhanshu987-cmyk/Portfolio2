@@ -136,18 +136,74 @@ h1 span{
     margin-right:10px;
 }
 .about .head{
-    font-size:40px;
-    margin-top:20px;
+    font-size:72px;
+   line-height:1.1;
+    font-weight:700;
+    max-width:800px;
+    color:white;
 }
 .desc{
-    margin-top:60px;
+    margin-top:50px;
     color:#9c9c9c;
-    font-size:1.3rem;
+    font-size:22px;
     max-width:650px;
-    line-height:1.3;
+    line-height:1.6;
 }
 .desc {
     margin-right:30px;
     color:#9c9c9c;
     font-size:20px;
+}
+
+.about{
+    width:90%;
+    margin:120px auto;
+    display:grid;
+    grid-template-columns: 58% 42%;
+    gap:70px;
+}
+
+.container{
+    padding:0;
+    width:100%;
+}
+
+.second{
+    position:relative;
+    padding-left:30px;
+    border-left:1px solid #333;
+     min-height:700px;
+}
+
+.education-item{
+    position:relative;
+    margin-bottom:70px;
+}
+
+.education-item::before{
+    content:"";
+    position:absolute;
+    left:-37px;
+    top:10px;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#ff8b61;
+}
+.second h4{
+    font-size:24px;
+    margin:10px 0;
+    color:white;
+}
+
+.second p{
+    color:#a0a0a0;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.second h6{
+    color:#8a8a8a;
+    letter-spacing:4px;
+    margin-bottom:10px;
 }
